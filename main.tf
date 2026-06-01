@@ -7,3 +7,8 @@ resource "azurerm_resource_group" "myrg1" {
     name = "new-rg1"
     location = "west us"
 }
+
+resource "azurerm_resource_group" "myrg2" {
+    name = "new-rg2"
+    location = "west us"
+}
